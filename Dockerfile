@@ -1,4 +1,4 @@
-FROM quay.io/bitriseio/bitrise-base:alpha
+FROM quay.io/bitriseio/bitrise-base:alpha-v2021_05_28-02_02-b2546
 
 ENV ANDROID_SDK_ROOT /opt/android-sdk-linux
 # Preserved for backwards compatibility
