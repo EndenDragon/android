@@ -121,3 +121,5 @@ RUN cd /opt \
 # Cleaning
 RUN apt-get clean
 
+# Setup emulator with name Pixel3
+RUN avdmanager create avd --name Pixel3 --abi google_apis/x86_64 --package 'system-images;android-28;google_apis;x86_64' --device "pixel_3"
